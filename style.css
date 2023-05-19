@@ -1,10 +1,26 @@
 body {
-    font-family: helvetica, sans-serif;
-    width: 350px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica, sans-serif;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+  }
+
+  .input{
+    display: flex;
+    align-items: center;
   }
 
   label {
     font-weight: bold;
+    margin-right: 5px;
   }
 
   div {
